@@ -1,0 +1,16 @@
+{
+ "name": "<2020-21-ene national dataset>",
+ "schema": "tabular-data-package",
+ "profile": "tabular-data-package",
+ "resources": [
+     {
+         "path": "<INSERT URL TO YOUR DATA SET>",
+         "profile": "tabular-data-resource",
+         "name": "<INSERT NAME OF YOUR DATA SET>",
+         "format": "csv",
+         "mediatype": "text/csv",
+         "encoding": "utf-8",
+         "schema": "https://raw.githubusercontent.com/vulekamali/data-checks/master/schema/<INSERT TYPE OF YOUR DATA SET>.json"
+     }
+ ]
+}S
